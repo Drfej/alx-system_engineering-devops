@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # displays numbers from 1 to 20.
-COUNTER=1
-while [$COUNTER -lt 21]
+COUNTER = 1
+while [ $COUNTER -lt 21 ]
 do
 case $COUNTER in
 4)
@@ -20,5 +20,5 @@ echo "bad luck from Italy"
 echo $COUNTER
 ;;
 esac
-let COUNTER+=1
+let COUNTER += 1
 done
